@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+html{
+    color: rgb(201, 197, 184);
+}
+body{
+    margin: 15px;
+    background-color: rgb(21, 36, 56);
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 500px;
+    text-align: center;
+}
+#intro > h2{
+    font-weight: 800;
+    margin: 2px;
+    font-variant: small-caps;
+}
+#intro > h1{
+    font-weight:100;
+    font-size: 4rem;
+    margin: 2px;
+}
+#intro > p{
+    max-width: 512px;
+}
+img{
+    width: 20%;
+    height: 20%;
+    max-width: 128px;
+    min-width: 128px;
+}
+#stuff{
+    margin-top: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content > h1{
+    font-variant: small-caps;
+    width: 800px;
+    text-align: center;
+    font-size: 3rem;
+}
+#line{
+    border-top: 2px solid rgba(215, 210, 203, 0.593);
+    width: 300px;
+}
